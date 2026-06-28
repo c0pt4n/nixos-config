@@ -13,6 +13,7 @@
 	autocd = true;
 	dotDir = ".config/zsh";
 	autosuggestion.enable = true;
+	autoCompletion.enable = true;
 	syntaxHighlighting.enable = true;
     history.size = 10000;
 	initContent = ''
