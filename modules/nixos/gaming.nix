@@ -3,6 +3,8 @@
 { pkgs, ... }:
 
 {
+  nixpkgs.config.allowUnfree = true;
+
   programs = {
 	steam.enable = true;
 	steam.protontricks.enable = true;
