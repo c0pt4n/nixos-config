@@ -1,6 +1,6 @@
 # modules/nixos/packages.nix
 
-{ config, pkgs, ... }:
+{ pkgs, ... }:
 
 {
   programs.zsh.enable = true;
@@ -22,5 +22,7 @@
 	tmate
     wget
 	zstd
+	pass
+	passExtensions.pass-otp
   ];
 }

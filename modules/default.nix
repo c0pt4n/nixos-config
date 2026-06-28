@@ -1,6 +1,6 @@
 # modules/default.nix
 
-{ inputs, outputs, ... }:
+{ ... }:
 
 {
   imports = [ ./nixos ];

@@ -1,6 +1,6 @@
 # modules/nixos/default.nix
 
-{ inputs, outputs, ... }:
+{ ... }:
 
 {
   imports = [
@@ -8,8 +8,10 @@
     ./bootloader.nix
     ./desktop.nix
     ./fs.nix
+	./gaming.nix
     ./locale.nix
     ./packages.nix
+	./security.nix
     ./users.nix
     ./zram.nix
   ];
