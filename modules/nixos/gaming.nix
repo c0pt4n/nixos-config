@@ -5,7 +5,7 @@
 {
   programs = {
 	steam.enable = true;
-	steam.protontricks = true;
+	steam.protontricks.enable = true;
 	gamemode.enable = true;
   };
 
