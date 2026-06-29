@@ -5,7 +5,7 @@
 {
   imports = [ ./nixos ];
   home-manager = {
-    useGlobalPkgs = false;
+    useGlobalPkgs = true;
     useUserPackages = true;
     backupFileExtension = "hm-backup";
     extraSpecialArgs = { inherit inputs outputs; };

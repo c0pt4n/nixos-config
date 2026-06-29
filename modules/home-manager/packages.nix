@@ -3,8 +3,6 @@
 { pkgs, ... }:
 
 {
-  nixpkgs.config.allowUnfree = true;
-
   programs.discord.enable = true;
 
   programs.bat = {
