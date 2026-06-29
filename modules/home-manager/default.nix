@@ -7,6 +7,7 @@
 	./fastfetch.nix
 	./git.nix
 	./home.nix
+	./neovim
 	./packages.nix
 	./password-store.nix
     ./shell.nix
