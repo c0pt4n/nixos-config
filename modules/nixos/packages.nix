@@ -3,26 +3,45 @@
 { pkgs, ... }:
 
 {
+  programs.firefox.enable = true;
   programs.zsh.enable = true;
 
   environment.systemPackages = with pkgs; [
-	btop
+	# git
 	git
-	bat
+	gh
 	git-filter-repo
 	git-lfs
-	gh
-	ripgrep
-    fastfetch
-    firefox
-    neovim
-	jq
 	jujutsu
-	tmux
-	tmate
-    wget
-	zstd
+
+	# archives
+	zip
+	xz
+	unzip
+	p7zip
+	gnutar
+
+	# coreutils
+	file
+	which
+	tree
+	gnused
+	gawk
 	pass
 	passExtensions.pass-otp
+
+	# productivity
+    fastfetch
+	btop
+	tmux
+	tmate
+	bat
+	neovim
+	ripgrep
+
+	# misc
+	jq
+    wget
+	zstd
   ];
 }
