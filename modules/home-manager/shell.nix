@@ -132,4 +132,19 @@
 	  eval "$(starship init zsh)"
     '';
   };
+
+  programs.fzf = {
+	enable = true;
+
+	enableZshIntegration = true;
+	defaultOptions = [
+	  "--height 40%"
+	  "--layout reverse"
+	  "--ansi"
+	  "--highlight-line"
+	  "--bind ctrl-y:accept"
+	  "--color=fg:7,hl:3,fg+:15,bg+:8,hl+:4,marker:10,pointer:0,gutter:0"
+	  "--color=info:8,prompt:8,border:8,spinner:8,header:8,footer:8"
+	];
+  };
 }

@@ -38,6 +38,7 @@
 	bat
 	neovim
 	ripgrep
+	fzf
 
 	# misc
 	jq
