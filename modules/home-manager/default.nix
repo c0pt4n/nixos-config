@@ -4,6 +4,7 @@
 
 {
   imports = [
+	./fastfetch.nix
 	./git.nix
 	./home.nix
 	./packages.nix
