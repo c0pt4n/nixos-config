@@ -26,6 +26,7 @@
     music = "${config.home.homeDirectory}/music";
     publicShare = "${config.home.homeDirectory}/docs/share";
     templates = "${config.home.homeDirectory}/docs/templs";
+	projects = "${config.home.homeDirectory}/projects";
   };
 
   home.packages = with pkgs; [
