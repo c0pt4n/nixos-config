@@ -1,3 +1,5 @@
+# modules/home-manager/git.nix
+
 { ... }:
 
 {
@@ -29,6 +31,16 @@
 		tree = "ls-tree --full-tree -r HEAD";
 		logg = "log --oneline --graph --decorate";
 		undo = "reset --soft HEAD^";
+	  };
+	  push = {
+		default = "simple";
+		autoSetupRemote = true;
+	  };
+	  pull = {
+		rebase = true;
+	  };
+	  rebase = {
+		autoStash = true;
 	  };
 	  diff = {
 		tool = "nvimdiff";
