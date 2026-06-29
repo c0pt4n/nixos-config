@@ -8,6 +8,7 @@
 	./git.nix
 	./home.nix
 	./packages.nix
+	./password-store.nix
     ./shell.nix
   ];
 
