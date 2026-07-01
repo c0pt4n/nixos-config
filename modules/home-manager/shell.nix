@@ -131,6 +131,7 @@
     history.size = 10000;
 	initContent = ''
 	  eval "$(starship init zsh)"
+      eval "$(zoxide init zsh)"
     '';
   };
 

@@ -44,5 +44,7 @@
 	jq
     wget
 	zstd
+	zoxide
+	plocate
   ];
 }
