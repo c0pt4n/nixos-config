@@ -127,6 +127,7 @@
 	autosuggestion.enable = true;
 	enableCompletion = true;
 	syntaxHighlighting.enable = true;
+	historySubstringSearch.enable = true;
     history.size = 10000;
 	initContent = ''
 	  eval "$(starship init zsh)"
