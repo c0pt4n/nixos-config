@@ -46,5 +46,7 @@
 	zstd
 	zoxide
 	plocate
+	duf
+	dust
   ];
 }
