@@ -8,6 +8,7 @@
 	./git.nix
 	./home.nix
 	./neovim
+	./mangowc
 	./packages.nix
 	./password-store.nix
     ./shell.nix
